@@ -2,12 +2,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --accent-color: #000;
-  --bg-color: #FFF;
-  --bg-image: url(../svg/pattern-light.svg);
   --accent-text: 'Press Start 2P', sans-serif;
+  --backdrop-color: #000;
+  --bg-color: #FFF;
+  --button-text-color: #FFF;
   --content-text: 'Inter-Variable', sans-serif;
+  --gradient-line-color: #d3d3d3;
+  --gradient: linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --font-wght: 400;
-  --title-wght: 700;
   --heart-contour: #000;
   --heart-fill: red;
+  --title-wght: 700;
+  --text-shadow: #FFF;
 }

@@ -7,29 +7,41 @@
 */
 .page.theme-light {
   --accent-color: #000;
+  --backdrop-color: #000;
   --bg-color: #FFF;
-  --bg-image: url(../svg/pattern-light.svg);
+  --gradient: linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --gradient-line-color: #d3d3d3;
   --font-wght: 400;
   --title-wght: 700;
+  --text-shadow: #FFF;
   --heart-contour: #000;
+  --button-text-color: #FFF;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #00CC14;
+    --backdrop-color: #000;
     --bg-color: #000;
-    --bg-image: url(../svg/pattern-dark.svg);
+    --gradient: linear-gradient(#007f0c, #004306);
+    --gradient-line-color: #000;
     --heart-contour: #00CC14;
     --font-wght: 465;
     --title-wght: 785;
+    --text-shadow: #000;
+    --button-text-color: #00CC14;
   }
 }
 
 .page.theme-dark {
   --accent-color: #00CC14;
+  --backdrop-color: #000;
   --bg-color: #000;
-  --bg-image: url(../svg/pattern-dark.svg);
+  --gradient: linear-gradient(#007f0c, #004306);
+  --gradient-line-color: #000;
+  --heart-contour: #00CC14;
   --font-wght: 465;
   --title-wght: 785;
-  --heart-contour: #00CC14;
+  --text-shadow: #000;
+  --button-text-color: #00CC14;
 }

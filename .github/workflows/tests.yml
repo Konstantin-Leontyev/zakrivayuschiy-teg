@@ -1,4 +1,4 @@
-name: Tests 7
+name: Tests 8
 
 on:
   push:
@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Check if the repository is private
         run: exit 1
         if: ${{github.event.repository.private}}
       - name: Tests
         uses: Yandex-Practicum/test-project-action@v1
         with:
-          project: 'zakrivayuschiy-teg'
+          project: 'zakrivayuschiy-teg-final'
